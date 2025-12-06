@@ -1,5 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
+<!-- res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.HealHive" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.HealHive" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme colors here -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/purple_700</item>
+    </style>
+
 </resources>
